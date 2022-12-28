@@ -177,25 +177,9 @@
     - Нажать на кнопку "Add to cart"
     - Вверху экрана нажать "Cart"
     - Нажать на кнопку "Checkout"
-    expected-result: |
+  expected-result: |
     Сообщение об успешном оформлении заказа и перенаправление на страницу оплаты.
-    
-- summary: |
-    Успешное оформление заказа Apple Safari.
-    requirement: |
-    Сайт должен быть протестирован на совместимость с последними версиями браузеров.
-  prerequisites:
-    В браузере Apple Safari версия 16.2 открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-  test-data: |
-    Товар = Brown Perfume
-  steps:
-    - Выбрать товар
-    - Нажать на кнопку "Add to cart"
-    - Вверху экрана нажать "Cart"
-    - Нажать на кнопку "Checkout"
-    expected-result: |
-    Сообщение об успешном оформлении заказа и перенаправление на страницу оплаты.
-    
+
 - summary: |
     Успешное оформление заказа Microsoft Edge.
     requirement: |
@@ -209,7 +193,7 @@
     - Нажать на кнопку "Add to cart"
     - Вверху экрана нажать "Cart"
     - Нажать на кнопку "Checkout"
-    expected-result: |
+  expected-result: |
     Сообщение об успешном оформлении заказа и перенаправление на страницу оплаты.
 
 - summary: |
