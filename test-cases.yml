@@ -47,7 +47,7 @@
   requirement: |
     При оформлении заказа без авторизации пользователя должны быть запрошены контактный данные (как минимум номер телефона).
   prerequisites:
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     Товар = Samsung Galaxy Book
   steps:
@@ -63,7 +63,7 @@
     requirement: |
     Сайт должен иметь мобильную версию. Сайт должен быть доступен на различных устройствах.
   prerequisites:
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     Размер = iPhone SE
     Товар = Tree Oil 30ml
@@ -81,7 +81,7 @@
     requirement: |
     Сайт должен иметь мобильную версию. Сайт должен быть доступен на различных устройствах.
   prerequisites:
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     Размер = iPad Air
     Товар = Tree Oil 30ml
@@ -99,7 +99,7 @@
     requirement: |
     Сайт должен иметь мобильную версию. Сайт должен быть доступен на различных устройствах.
   prerequisites:
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     Размер = Galaxy S5
     Товар = Tree Oil 30ml
@@ -117,7 +117,7 @@
     requirement: |
     Если язык интерфейса выбран русский, то вся текстовая информация должна быть представлена на русском языке (за исключением названий моделей и брендов).
   prerequisites:
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     Language = Русский
     Товар = Tree Oil 30ml
@@ -136,7 +136,7 @@
     requirement: |
     Если язык интерфейса выбран английский, то вся текстовая информация должна быть представлена на английском языке.
   prerequisites:
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     Language = English
     Товар = Samsung Galaxy Book
@@ -155,7 +155,7 @@
   requirement: |
     Веб-сайт должен быть разработан с учетом удобства использования и оптимизирован для скорости работы
   prerequisites:
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
   steps:
     - Открыть инструменты разработчика
@@ -171,7 +171,7 @@
   requirement: |
     Веб-сайт должен быть разработан с учетом удобства использования и оптимизирован для скорости работы
   prerequisites:
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
   steps:
     - Открыть инструменты разработчика
@@ -185,7 +185,7 @@
     requirement: |
     Сайт должен быть протестирован на совместимость с последними версиями браузеров.
   prerequisites:
-    В браузере Mozilla Firefox версия 108.0.1 открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    В браузере Mozilla Firefox версия 108.0.1 открытаглавная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     Товар = Brown Perfume
   steps:
@@ -201,7 +201,7 @@
     requirement: |
     Сайт должен быть протестирован на совместимость с последними версиями браузеров.
   prerequisites:
-    В браузере Microsoft Edge версия 108.0.1462.54 открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    В браузере Microsoft Edge версия 108.0.1462.54 открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     Товар = Brown Perfume
   steps:
@@ -217,7 +217,7 @@
   requirement: |
     Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины.
   prerequisites: |
-    открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
   steps:
     - Положить любой товар в корзину, нажав на кнопку "Add to cart"
@@ -234,7 +234,7 @@
   requirement: |
     Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины.
   prerequisites: |
-    открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
   steps:
     - Положить любой товар в корзину, нажав на кнопку "Add to cart"
@@ -250,7 +250,7 @@
   requirement: |
     На странице корзины пользователь может удалить товар из корзины.
   prerequisites: |
-    открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
   steps:
     - Положить один товар в корзину
@@ -266,7 +266,7 @@
   requirement: |
     Общая стоимость товаров в корзине должна быть рассчитана корректно.
   prerequisites: |
-    открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     Товар 1 = IPhone 9, Количество = 1
     Товар 2 = iPhone X, Количество = 2
@@ -285,7 +285,7 @@
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
   prerequisites: |
-    открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     Search = phone    
   steps:
@@ -298,7 +298,7 @@
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
   prerequisites: |
-    открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     Search = sofa    
   steps:
@@ -311,7 +311,7 @@
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
   prerequisites: |
-    открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     Category = laptops   
   steps:
@@ -326,7 +326,7 @@
     Исходя из организации работы аналогичных ПО, ожидается, что на всех страницах с поиском по категориям,
     процесс организован одинаково и можно выбрать любую из всех имеющихся категорий.
   prerequisites: |
-    открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
   steps:
     - открыть список категорий
@@ -341,7 +341,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары по цене, цвету, размеру и т.д.
   prerequisites: |
-    открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     Price from = 0
     Price to = 30
