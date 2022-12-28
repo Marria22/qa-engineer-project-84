@@ -4,7 +4,7 @@
   requirement: |
    Пользователь должен иметь возможность зарегистрироваться.
   prerequisites:
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+   Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
   steps:
     - Нажать на кнопку "Sign up"
@@ -13,11 +13,11 @@
     Сообщение об успешной регистрации.
 
 - summary: |
-    Успешная авторизация
+   Успешная авторизация
   requirement: |
    Пользователь должен иметь возможность авторизоваться.
   prerequisites:
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+   Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
   steps:
     - нажать на кнопку "Log in"
@@ -31,7 +31,7 @@
     Пользователь должен иметь возможность оформить заказ с переходом на страницу оплаты.
     Сайт должен быть протестирован на совместимость с последними версиями браузеров.
   prerequisites:
-    В браузере Google Chrome версия 108.0.5359.125 открыть главную страницу сайта https://hexlet-products-store.vercel.app/
+    В браузере Google Chrome версия 108.0.5359.125 открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     Товар = Samsung Galaxy Book
   steps:
