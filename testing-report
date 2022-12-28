@@ -8,6 +8,10 @@
   status: fail
   
 - summary: |
+    Запрос контактной информации при оформлении заказа неавторизованным пользователем.
+  status: fail
+  
+- summary: |
     Успешное оформление заказа на одну позицию в Google Chrome
   status: pass
   
@@ -87,3 +91,6 @@
     Фильтр по цвету
   status: fail
   
+- summary: |
+    Отключение флажка "In stock"
+  status: fail
