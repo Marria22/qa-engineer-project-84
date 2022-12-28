@@ -2,7 +2,7 @@
 - summary: |
     Успешная регистрация
   requirement: |
-   
+   Пользователь должен иметь возможность зарегистрироваться.
   prerequisites:
     Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
   test-data: |
@@ -162,7 +162,7 @@
   - summary: |
     Проверка корректности расчета стоимости заказа из 5 позиций
   requirement: |
-    
+    Общая стоимость товаров в корзине должна быть рассчитана корректно.
   prerequisites: |
     открыть главную страницу сайта https://hexlet-products-store.vercel.app/
   test-data: |
