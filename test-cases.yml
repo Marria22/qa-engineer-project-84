@@ -205,7 +205,7 @@
   prerequisites: |
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
-    Товар 1 = IPhone 9, Количество = 1
+    Товар 1 = iPhone 9, Количество = 1
     Товар 2 = iPhone X, Количество = 2
     Товар 3 = Samsung Universe 9, Количество = 3
     Товар 4 = Samsung Galaxy Book, Количество = 4
@@ -215,7 +215,7 @@
     - Перейти в корзину, нажав на кнопку "Cart"
   expected-result: |
     Общая стоимость заказа равна 10927,85 $.
-    По позициям суммы следующие: IPhone 9 = 477,85 $, iPhone X = 1475,44 $, Samsung Universe 9 = 3167,70 $,Samsung Galaxy Book = 5747,16 $,Fog Scent Xpressio Perfume = 59,70 $.
+    По позициям суммы следующие: iPhone 9 = 477,85 $, iPhone X = 1475,44 $, Samsung Universe 9 = 3167,70 $,Samsung Galaxy Book = 5747,16 $,Fog Scent Xpressio Perfume = 59,70 $.
 
 - summary: |
     Поиск товаров по существующему ключевому слову, искомый товар отображается на этой же странице 
