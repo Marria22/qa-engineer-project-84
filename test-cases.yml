@@ -1,31 +1,5 @@
 ---
 - summary: |
-    Успешная регистрация
-  requirement: |
-   Пользователь должен иметь возможность зарегистрироваться.
-  prerequisites:
-   Открыта главная страница сайта https://hexlet-products-store.vercel.app/
-  test-data: |
-  steps:
-    - Нажать на кнопку "Sign up"
-    - заполнить данные
-  expected-result: |
-    Сообщение об успешной регистрации.
-
-- summary: |
-   Успешная авторизация
-  requirement: |
-   Пользователь должен иметь возможность авторизоваться.
-  prerequisites:
-   Открыта главная страница сайта https://hexlet-products-store.vercel.app/
-  test-data: |
-  steps:
-    - нажать на кнопку "Log in"
-    - заполнить данные
-  expected-result: |
-    Вход в аккаунт.
-
-- summary: |
     Успешное оформление заказа на одну позицию в Google Chrome.
   requirement: |
     Пользователь должен иметь возможность оформить заказ с переходом на страницу оплаты.
@@ -349,20 +323,7 @@
     - заполнить Price from-to
     expected-result: |
     На страницы должны быть отображены 17 товаров, цена которых не более 30$
-    
-- summary: |
-    Фильтр по цвету
-  requirement: |
-    Пользователь должен иметь возможность фильтровать товары по цене, цвету, размеру и т.д.
-  prerequisites:
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-  test-data: |
-    Colour = Black
-  steps:
-    - Установить флажок цвета
-  expected-result: |
-    Отображены все товары черного цвета
-    
+   
 - summary: |
     Отключение флажка "In stock"
   requirement: |
