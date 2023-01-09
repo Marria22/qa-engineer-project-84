@@ -1,13 +1,5 @@
 ---
 - summary: |
-    Успешная регистрация
-  status: fail
-    
-- summary: |
-    Успешная авторизация
-  status: fail
-  
-- summary: |
     Запрос контактной информации при оформлении заказа неавторизованным пользователем.
   status: fail
   
@@ -86,10 +78,6 @@
 - summary: |
     Фильтр по цене 30
   status: fail 
-  
-- summary: |
-    Фильтр по цвету
-  status: fail
   
 - summary: |
     Отключение флажка "In stock"
