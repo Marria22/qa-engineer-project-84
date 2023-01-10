@@ -95,10 +95,10 @@
   prerequisites:
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
-  
+   Сеть = медленная 3G сеть
   steps:
     - Открыть инструменты разработчика
-    - Поставить ограничение скорости интернета - медленная 3G сеть
+    - Поставить ограничение скорости интернета
     - Напротив любых двух товаров нажать "Add to cart"
     - Нажать "Cart"
     - Нажать на кнопку "Checkout"
@@ -112,10 +112,10 @@
   prerequisites:
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
-  
+   Сеть = медленная 3G сеть
   steps:
     - Открыть инструменты разработчика
-    - Поставить ограничение скорости интернета - медленная 3G сеть
+    - Поставить ограничение скорости интернета
     - Кликнуть по названию любого товара
   expected-result: |
     В карточке товара должно быть: фото товара, название, описание товара, цена со скидкой и без, рейтинг товара.
@@ -159,7 +159,7 @@
   prerequisites: |
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
-  
+    empty string
   steps:
     - Выбрать любой товар
     - Нажать "Add to cart"
@@ -179,7 +179,7 @@
   prerequisites: |
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
-  
+    empty string
   steps:
     - Выбрать любой товар
     - Нажать "Add to cart"
@@ -197,7 +197,7 @@
   prerequisites: |
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
-  
+    empty string
   steps:
     - Выбрать любой товар
     - Нажать "Add to cart"
@@ -276,7 +276,7 @@
   prerequisites: |
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
-  
+    empty string
   steps:
     - открыть список категорий
     - дублировать вкладку в браузере
@@ -306,7 +306,7 @@
   prerequisites:
     Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
   test-data: |
-  
+    empty string
   steps:
     - Отключить флажок "In stock"
   expected-result: |
