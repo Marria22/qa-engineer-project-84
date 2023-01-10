@@ -1,8 +1,8 @@
 ---
 test-cases:
 - summary: |
-      Успешное оформление заказа на одну позицию в Google Chrome
-    status: fail
+    Успешное оформление заказа на одну позицию в Google Chrome
+  status: fail
 
 - summary: |
     Успешное оформление заказа в мобильной версии iPhone SE (375*667)
