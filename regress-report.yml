@@ -1,10 +1,10 @@
 ---
 test-cases:
-  - summary: |
+- summary: |
       Успешное оформление заказа на одну позицию в Google Chrome
     status: fail
 
- - summary: |
+- summary: |
     Успешное оформление заказа в мобильной версии iPhone SE (375*667)
   status: fail
   
@@ -77,7 +77,6 @@ test-cases:
   status: pass
 
 bugreports:
----
 - summary: |
     Отсутствует перенаправление на страницу оплаты при оформлении заказа Google Chrome, Mozilla Firefox, Microsoft Edge, мобильная версия, при низкой скорости интернета.
   environment: |
@@ -167,7 +166,6 @@ bugreports:
     ОС Windows 10
   steps-to-reproduce: |
     1. Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    открыть список категорий
     2. Отключить флажок "In stock"
   expected-result: |
     Выведены все товары (которые есть на складе и те, что отсутствуют)
