@@ -74,7 +74,7 @@ test-cases:
   
 - summary: |
     Отключение флажка "In stock"
-  status: fail
+  status: pass
 
 bugreports:
   - summary: |
