@@ -95,6 +95,7 @@
   prerequisites:
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
+  
   steps:
     - Открыть инструменты разработчика
     - Поставить ограничение скорости интернета - медленная 3G сеть
@@ -111,6 +112,7 @@
   prerequisites:
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
+  
   steps:
     - Открыть инструменты разработчика
     - Поставить ограничение скорости интернета - медленная 3G сеть
@@ -157,6 +159,7 @@
   prerequisites: |
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
+  
   steps:
     - Выбрать любой товар
     - Нажать "Add to cart"
@@ -176,6 +179,7 @@
   prerequisites: |
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
+  
   steps:
     - Выбрать любой товар
     - Нажать "Add to cart"
@@ -193,6 +197,7 @@
   prerequisites: |
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
+  
   steps:
     - Выбрать любой товар
     - Нажать "Add to cart"
@@ -271,6 +276,7 @@
   prerequisites: |
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
+  
   steps:
     - открыть список категорий
     - дублировать вкладку в браузере
@@ -300,6 +306,7 @@
   prerequisites:
     Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
   test-data: |
+  
   steps:
     - Отключить флажок "In stock"
   expected-result: |
