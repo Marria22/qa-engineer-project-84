@@ -18,7 +18,7 @@
         
 - summary: |
     Успешное оформление заказа в мобильной версии iPhone SE (375*667)
-    requirement: |
+  requirement: |
     Сайт должен иметь мобильную версию. Сайт должен быть доступен на различных устройствах.
   prerequisites:
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
@@ -51,7 +51,7 @@
 
 - summary: |
     Проверка русского интерфейса
-    requirement: |
+  requirement: |
     Если язык интерфейса выбран русский, то вся текстовая информация должна быть представлена на русском языке (за исключением названий моделей и брендов).
   prerequisites:
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
@@ -70,7 +70,7 @@
     
 - summary: |
     Проверка английского интерфейса
-    requirement: |
+  requirement: |
     Если язык интерфейса выбран английский, то вся текстовая информация должна быть представлена на английском языке.
   prerequisites:
     Открыта главная страница сайта https://hexlet-products-store.vercel.app/
@@ -119,7 +119,7 @@
    
 - summary: |
     Успешное оформление заказа Mozilla Firefox.
-    requirement: |
+  requirement: |
     Сайт должен быть протестирован на совместимость с последними версиями браузеров.
   prerequisites:
     В браузере Mozilla Firefox версия 108.0.1 открытаглавная страница сайта https://hexlet-products-store.vercel.app/
@@ -135,7 +135,7 @@
 
 - summary: |
     Успешное оформление заказа Microsoft Edge.
-    requirement: |
+  requirement: |
     Сайт должен быть протестирован на совместимость с последними версиями браузеров.
   prerequisites:
     В браузере Microsoft Edge версия 108.0.1462.54 открыта главная страница сайта https://hexlet-products-store.vercel.app/
@@ -200,7 +200,7 @@
     - Нажать "Cart"
     - Напротив первого товара нажать "Delete"
     - Напротив второго товара нажать "Delete" 2 раза
-    expected-result: |
+  expected-result: |
     В корзине остался второй товар в количестве 1 шт.
 
 - summary: |
@@ -289,7 +289,7 @@
     Price to = 30
   steps:
     - заполнить Price from-to
-    expected-result: |
+  expected-result: |
     На страницы должны быть отображены 17 товаров, цена которых не более 30$
    
 - summary: |
