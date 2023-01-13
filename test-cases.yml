@@ -15,6 +15,22 @@
   expected-result: |
     Сообщение об успешном оформлении заказа.
     
+ - summary: |
+    Проверка перенаправления на страницу оплаты
+  requirement: |
+    Пользователь должен иметь возможность оформить заказ с переходом на страницу оплаты.
+  prerequisites:
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/
+  test-data: |
+    Товар = Samsung Galaxy Book
+  steps:
+    - Выбрать товар
+    - Нажать "Add to cart"
+    - Нажать "Cart"
+    - Нажать "Checkout"
+  expected-result: |
+    Перенаправление на страницу оплаты
+    
 - summary: |
     Просмотр карточки товара в мобильной версии iPhone SE (375*667)
   requirement: |
