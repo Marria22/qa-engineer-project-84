@@ -53,7 +53,7 @@ test-cases:
   status: fail 
   
 - summary: |
-    Проверка фильтрции товара "In stock"
+    Проверка фильтрации товара "In stock"
   status: pass
 
 bugreports:
