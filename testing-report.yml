@@ -4,6 +4,10 @@
   status: pass
   
 - summary: |
+  Проверка перенаправления на страницу оплаты
+  status: fail
+  
+- summary: |
     Просмотр карточки товара в мобильной версии iPhone SE (375*667)
   status: pass
   
