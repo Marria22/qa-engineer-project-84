@@ -4,8 +4,6 @@
   environment: |
     Google Chrome   108.0.5359.125 (Официальная сборка) (64 бит)
     ОС Windows 10
-  precondition:|
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
   steps-to-reproduce: |
     1. Выбрать язык интерфейса - русский
     2. Открыть список категории для поиска товаров
@@ -23,8 +21,6 @@
   environment: |
     Google Chrome   108.0.5359.125 (Официальная сборка) (64 бит)
     ОС Windows 10
-  precondition:|
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
   steps-to-reproduce: |
     1. Ввести в поле поиск: "sofa"
   expected-result: |
@@ -37,8 +33,6 @@
   environment: |
     Google Chrome   108.0.5359.125 (Официальная сборка) (64 бит)
     ОС Windows 10
-  precondition:|
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
   steps-to-reproduce: |
     1. Заполнить Price from-to значениями: 0 и 30
   expected-result: |
@@ -51,8 +45,6 @@
   environment: |
     Google Chrome   108.0.5359.125 (Официальная сборка) (64 бит)
     ОС Windows 10
-  precondition:|
-    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
   steps-to-reproduce: |
     1. Отключить чек-бокс "In stock"
   expected-result: |
