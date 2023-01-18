@@ -4,14 +4,15 @@
   environment: |
     Google Chrome   108.0.5359.125 (Официальная сборка) (64 бит)
     ОС Windows 10
+  precondition:|
+    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
   steps-to-reproduce: |
-    1. Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. Выбрать язык интерфейса - русский
-    3. Открыть список категории для поиска товаров
-    4. Кликнуть по названию товара
-    5. Нажать "В корзину"
-    6. Нажать "Корзина"
-    7. Нажать "Оформить заказ"
+    1. Выбрать язык интерфейса - русский
+    2. Открыть список категории для поиска товаров
+    3. Кликнуть по названию товара
+    4. Нажать "В корзину"
+    5. Нажать "Корзина"
+    6. Нажать "Оформить заказ"
   expected-result: |
     На всех шагах весь текст отображается на русском языке, кроме названий марок и брендов. Текст умещается в границах кнопок и блоков.
   actual-result: |
@@ -22,9 +23,10 @@
   environment: |
     Google Chrome   108.0.5359.125 (Официальная сборка) (64 бит)
     ОС Windows 10
+  precondition:|
+    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
   steps-to-reproduce: |
-    1. Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. Ввести в поле поиск: "sofa"
+    1. Ввести в поле поиск: "sofa"
   expected-result: |
     Должен отобразиться товар, в названии которого есть введеное слово
   actual-result: |
@@ -35,22 +37,24 @@
   environment: |
     Google Chrome   108.0.5359.125 (Официальная сборка) (64 бит)
     ОС Windows 10
+  precondition:|
+    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
   steps-to-reproduce: |
-    1. Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. Заполнить Price from-to значениями: 0 и 30
+    1. Заполнить Price from-to значениями: 0 и 30
   expected-result: |
     На странице должны быть отображены 17 товаров, цена которых не более 30$
   actual-result: |
     Выведены не все товары с ценой до 30$ включительно.
    
 - summary: |
-    Не отображается весь товар при отключении "In stock"
+    Не отображаются товары при отключении чек-бокса "In stock"
   environment: |
     Google Chrome   108.0.5359.125 (Официальная сборка) (64 бит)
     ОС Windows 10
+  precondition:|
+    Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
   steps-to-reproduce: |
-    1. Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. Отключить флажок "In stock"
+    1. Отключить чек-бокс "In stock"
   expected-result: |
     Выведены все товары (которые есть на складе и те, что отсутствуют)
   actual-result: |
